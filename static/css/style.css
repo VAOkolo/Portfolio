@@ -2,9 +2,11 @@
     padding: 0;
     margin: 0;
 } 
+/* styling navbar */
 .navbar{
     background-color: #000000;
     color: #ffffff;
+    height: 50px;
     /* makes sure children contained within parent if set to auto changes with other settings */
     overflow: auto;
 }
@@ -29,3 +31,10 @@
     color: green;
     /* background-color: blue; */
 }
+/* styling main div*/
+.main{
+    text-align: center;
+    background-color: lightsteelblue;
+    height:calc(100vh - 50px);
+}
+
